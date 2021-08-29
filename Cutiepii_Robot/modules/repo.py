@@ -16,7 +16,7 @@ async def repo(_, message):
         for count, user in enumerate(users, start=1)
     )
 
-    text = f"""[Updates](https://t.me/Black_Knights_Union) | [Support](https://t.me/Black_Knights_Union_Support)
+    text = f"""[Updates](https://t.me/Black_Knights_Union) | [Support](https://t.me/Offical_Genshin_Support)
 ```----------------
 | Contributors |
 ----------------```

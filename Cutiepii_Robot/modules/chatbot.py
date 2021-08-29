@@ -1,7 +1,7 @@
 
 # Copyright (C) 2021 MoeZilla
 
-# This file is part of Cutiepii (Telegram Bot)
+# This file is part of Genshin (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -42,14 +42,14 @@ def add_chat(update: Update, context: CallbackContext):
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
         sql.set_kuki(chat.id)
-        msg.reply_text("Cutiepii AI successfully enabled for this chat!")
+        msg.reply_text("Genshin AI successfully enabled for this chat!")
         message = (
             f"<b>{html.escape(chat.title)}:</b>\n"
             f"AI_ENABLED\n"
             f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
         )
         return message
-    msg.reply_text("Cutiepii AI is already enabled for this chat!")
+    msg.reply_text("Genshin AI is already enabled for this chat!")
     return ""
 
 
@@ -61,10 +61,10 @@ def rem_chat(update: Update, context: CallbackContext):
     user = update.effective_user
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
-        msg.reply_text("Cutiepii AI isn't enabled here in the first place!")
+        msg.reply_text("Genshin AI isn't enabled here in the first place!")
         return ""
     sql.rem_kuki(chat.id)
-    msg.reply_text("Cutiepii AI disabled successfully!")
+    msg.reply_text("Genshin AI disabled successfully!")
     message = (
         f"<b>{html.escape(chat.title)}:</b>\n"
         f"AI_DISABLED\n"
@@ -128,14 +128,14 @@ __mod_name__ = "ChatBot"
 
 
 __help__ = """
-Chatbot utilizes the Kuki API and allows Cutiepii to talk and provides a more interactive group chat experience.
+Chatbot utilizes the Kuki API and allows Genshin to talk and provides a more interactive group chat experience.
 
 *Commands:* 
 *Admins only:*
    ➢ `addchat`*:* Enables Chatbot mode in the chat.
    ➢ `rmchat`*:* Disables Chatbot mode in the chat.
    
-Reports bugs at @Black_Knights_Union_Support
+Reports bugs at @Offical_Genshin_Support
 """
 
 __mod_name__ = "ChatBot"

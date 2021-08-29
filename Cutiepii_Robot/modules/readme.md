@@ -1,4 +1,4 @@
-# Cutiepii Robot Example plugin format
+# Genshin Robot Example plugin format
 
 ## Advanced: Pyrogram
 ```python3
