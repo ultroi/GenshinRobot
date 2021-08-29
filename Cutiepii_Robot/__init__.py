@@ -17,7 +17,6 @@ from pymongo.errors import ServerSelectionTimeoutError
 from redis import StrictRedis
 from Python_ARQ import ARQ
 from aiohttp import ClientSession
-from ptbcontrib.postgres_persistence import PostgresPersistence
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid, ChannelInvalid
 from telegram import Chat
 
@@ -31,7 +30,6 @@ logging.basicConfig(
 )
 
 LOGGER = logging.getLogger(__name__)
-logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
@@ -240,7 +238,7 @@ print("[CUTIEPII] Cutie Cutie! Successfully Connected With A  Yūki • Data Cen
 print("[CUTIEPII] Project Maintained By: github.com/Awesome-RJ (t.me/Awesome_Rj)")
 
 
-updater = tg.Updater(TOKEN, workers=WORKERS, request_kwargs={"read_timeout": 10, "connect_timeout": 10}, use_context=True, persistence=PostgresPersistence(SESSION))
+updater = tg.Updater(TOKEN, workers=WORKERS, request_kwargs={"read_timeout": 10, "connect_timeout": 10}, use_context=True)
 print("[CUTIEPII]: TELETHON CLIENT STARTING")
 telethn = TelegramClient("CUTIEPII", API_ID, API_HASH)
 dispatcher = updater.dispatcher
