@@ -87,9 +87,8 @@ CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
 PM_START_TEXT = """
 ────「 [Genshin Robot](https://telegra.ph/file/a594f0fe533ef90c82bc1.jpg) 」────
 *Hola! {},*
-*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+*I am an Anime themed advance group management bot with a lot of Advance Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• I Am Sister Of @Cutiepii_Robot
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
