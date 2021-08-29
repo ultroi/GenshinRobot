@@ -104,7 +104,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text="Add Genshin To Your Group",
-                            url="t.me/Cutiepii_Robot?startgroup=true")
+                            url="t.me/Genshin_Robot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
