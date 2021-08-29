@@ -391,7 +391,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
     stats = (
-        "Maintained by @Awesome_RJ\nBuilt with 💜 using python-telegram-bot\n\nPython version: 3.8.5\nLibrary version: 13.1\n\nSRC: https://github.com/Rajkumar-27/Cutiepii-Robot \nSupport Group:- @Black_Knights_Union_Support\nUpdate Channel:- @Black_Knights_Union\n\n<b>📖 Bot statistics:</b>\n"
+        "Maintained by @Awesome_RJ\nBuilt with 💜 using python-telegram-bot\n\nPython version: 3.8.5\nLibrary version: 13.7\n\nSRC: https://github.com/Rajkumar-27/Cutiepii-Robot \nSupport Group:- @Offical_Genshin_Support\nUpdate Channel:- @Black_Knights_Union\n\n<b>📖 Bot statistics:</b>\n"
         + "\n".join(mod.__stats__() for mod in STATS)
     )
 
