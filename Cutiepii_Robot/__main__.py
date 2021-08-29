@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
     
 PM_START_TEXT = """
-────「 [Cutiepii Robot](https://telegra.ph/file/6db0ffa5904f5b7e286af.jpg) 」────
+────「 [Genshin Robot](https://telegra.ph/file/fa203b4bc2e5b80ba4825.jpg) 」────
 *Hola! {},*
 *I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -103,7 +103,7 @@ Haven't slept since: {}
 buttons = [
     [
                         InlineKeyboardButton(
-                            text="Add Cutiepii To Your Group",
+                            text="Add Genshin To Your Group",
                             url="t.me/Cutiepii_Robot?startgroup=true")
                     ],
                    [
@@ -113,8 +113,8 @@ buttons = [
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="❔ Chit Chat",
-                             url="https://t.me/HindiKDrama"),
+                             text="❔ Support Chat",
+                             url="https://t.me/Offical_Genshin_Support"),
                        InlineKeyboardButton(
                              text="📢 Updates",
                              url="https://t.me/Black_Knights_Union")
