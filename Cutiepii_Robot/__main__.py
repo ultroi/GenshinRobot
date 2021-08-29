@@ -91,6 +91,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
+• I Am Sister Of @Cutiepii_Robot
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
