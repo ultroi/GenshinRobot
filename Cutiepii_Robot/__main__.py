@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
+CUTIEPII_IMG = "https://telegra.ph/file/fa203b4bc2e5b80ba4825.jpg"
     
 PM_START_TEXT = """
 ────「 [Genshin Robot](https://telegra.ph/file/fa203b4bc2e5b80ba4825.jpg) 」────
@@ -91,6 +91,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
+• I Am Sister Of @Cutiepii_Robot.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
@@ -104,7 +105,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text="Add Genshin To Your Group",
-                            url="t.me/Cutiepii_Robot?startgroup=true")
+                            url="t.me/Genshin_Robot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
