@@ -109,7 +109,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Guide ◄]", url="https://t.me/Black_Knights_Union/17"),
+                       InlineKeyboardButton(text="[► Guide ◄]", url="t.me/Black_Knights_Union/17"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
