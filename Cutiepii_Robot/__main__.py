@@ -82,12 +82,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-CUTIEPII_IMG = "https://telegra.ph/file/fa203b4bc2e5b80ba4825.jpg"
+CUTIEPII_IMG = "https://telegra.ph/file/a594f0fe533ef90c82bc1.jpg"
     
 PM_START_TEXT = """
-────「 [Genshin Robot](https://telegra.ph/file/fa203b4bc2e5b80ba4825.jpg) 」────
+────「 [Genshin Robot](https://telegra.ph/file/a594f0fe533ef90c82bc1.jpg) 」────
 *Hola! {},*
-*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+*I am an Anime themed advance group management bot with a lot of Advance Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -109,7 +109,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Music ◄]", url="http://t.me/Group_Music_Probot?startgroup=true"),
+                       InlineKeyboardButton(text="[► Guide ◄]", url="https://t.me/Black_Knights_Union/17"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
