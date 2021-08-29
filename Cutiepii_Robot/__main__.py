@@ -82,16 +82,15 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-CUTIEPII_IMG = "https://telegra.ph/file/a594f0fe533ef90c82bc1.jpg"
+CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
     
 PM_START_TEXT = """
 ────「 [Genshin Robot](https://telegra.ph/file/a594f0fe533ef90c82bc1.jpg) 」────
 *Hola! {},*
-*I am an Anime themed advance group management bot with a lot of Advance Features.*
+*I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
-• I Am Sister Of @Cutiepii_Robot.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
@@ -105,16 +104,16 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text="Add Genshin To Your Group",
-                            url="t.me/Genshin_Robot?startgroup=true")
+                            url="t.me/Cutiepii_Robot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Guide ◄]", url="t.me/Black_Knights_Union/17"),
+                       InlineKeyboardButton(text="[► Music ◄]", url="http://t.me/Group_Music_Probot?startgroup=true"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="❔ Support Chat",
+                             text="❔ Chit Chat",
                              url="https://t.me/Offical_Genshin_Support"),
                        InlineKeyboardButton(
                              text="📢 Updates",
